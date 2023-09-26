@@ -1,0 +1,11 @@
+{
+    cmdlines = {
+        "xmake f -p windows -a x64",
+        "xmake ",
+        "xmake project -k compile_commands",
+        "xmake ",
+        "xmake project -k compile_commands",
+        "xmake ",
+        "xmake "
+    }
+}

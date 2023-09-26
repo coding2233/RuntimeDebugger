@@ -1,0 +1,21 @@
+{
+    libhv = {
+        static = true,
+        links = "hv_static",
+        linkdirs = [[C:\Users\EDY\AppData\Local\.xmake\packages\l\libhv\1.2.6\bd8addf2c89344b593c524e2c6a4cd5e\lib]],
+        libfiles = [[C:\Users\EDY\AppData\Local\.xmake\packages\l\libhv\1.2.6\bd8addf2c89344b593c524e2c6a4cd5e\lib\hv_static.lib]],
+        version = "1.2.6",
+        __requirestr = "libhv",
+        installdir = [[C:\Users\EDY\AppData\Local\.xmake\packages\l\libhv\1.2.6\bd8addf2c89344b593c524e2c6a4cd5e]],
+        defines = "HV_STATICLIB",
+        __enabled = true,
+        syslinks = "advapi32",
+        sysincludedirs = [[C:\Users\EDY\AppData\Local\.xmake\packages\l\libhv\1.2.6\bd8addf2c89344b593c524e2c6a4cd5e\include]],
+        envs = {
+            PATH = {
+                [[C:\Users\EDY\AppData\Local\.xmake\packages\l\libhv\1.2.6\bd8addf2c89344b593c524e2c6a4cd5e\bin]],
+                [[C:\Users\EDY\AppData\Local\.xmake\packages\c\cmake\3.24.2\392e843f52e24d0a98e543024714d987\bin]]
+            }
+        }
+    }
+}

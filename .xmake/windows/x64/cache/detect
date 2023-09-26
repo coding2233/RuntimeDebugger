@@ -1,0 +1,58 @@
+{
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags__cl_external_includedir"] = true,
+        ["windows_x64_D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags__cl_sourceDependencies"] = true,
+        ["windows_x64_D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags__-DNDEBUG"] = true,
+        ["windows_x64_D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe__cxx___-O2 -fp:fast"] = true
+    },
+    find_program_fetch_package_xmake = {
+        cmake = false
+    },
+    find_programver_fetch_package_system = {
+        ["D:\\Program Files\\CMake\\bin\\cmake"] = "3.21.3"
+    },
+    find_program_fetch_package_system = {
+        cmake = [[D:\Program Files\CMake\bin\cmake]]
+    },
+    find_program = {
+        gdc = false,
+        ["D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe"] = [[D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\cl.exe]],
+        unzip = "unzip",
+        ldc2 = false,
+        git = "git",
+        dmd = false,
+        tar = "tar",
+        gzip = "gzip",
+        zig = false,
+        ["cl.exe"] = [[D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\cl.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe]]
+    },
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::libhv_bd8addf2c89344b593c524e2c6a4cd5e_release_1.2.6_external"] = {
+            static = true,
+            links = {
+                "hv_static"
+            },
+            linkdirs = {
+                [[C:\Users\EDY\AppData\Local\.xmake\packages\l\libhv\1.2.6\bd8addf2c89344b593c524e2c6a4cd5e\lib]]
+            },
+            libfiles = {
+                [[C:\Users\EDY\AppData\Local\.xmake\packages\l\libhv\1.2.6\bd8addf2c89344b593c524e2c6a4cd5e\lib\hv_static.lib]]
+            },
+            version = "1.2.6",
+            syslinks = "advapi32",
+            defines = "HV_STATICLIB",
+            sysincludedirs = {
+                [[C:\Users\EDY\AppData\Local\.xmake\packages\l\libhv\1.2.6\bd8addf2c89344b593c524e2c6a4cd5e\include]]
+            }
+        }
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\cl.exe]]
+    },
+    find_programver = {
+        ["D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe"] = false
+    }
+}
